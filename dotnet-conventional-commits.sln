@@ -5,13 +5,45 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{FA6E6DF1-7B88-4061-A56B-03229DCB5D97}"
 	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B5FD8ED1-EDA9-4C5F-8CAE-2AB8776FE273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConventionalCommits.LibGit2Sharp.Tests", "tests\ConventionalCommits.LibGit2Sharp.Tests\ConventionalCommits.LibGit2Sharp.Tests.csproj", "{0B5F271F-360D-4311-8874-CB6AF77B5C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5F1F3D1-32BA-4801-A765-ABEC43922F81}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B19F78ED-8212-4134-BCCF-7F0093401AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConventionalCommits.LibGit2Sharp", "src\ConventionalCommits.LibGit2Sharp\ConventionalCommits.LibGit2Sharp.csproj", "{722E2B08-3A97-4A49-946A-CB4B60071080}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5F271F-360D-4311-8874-CB6AF77B5C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5F271F-360D-4311-8874-CB6AF77B5C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5F271F-360D-4311-8874-CB6AF77B5C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5F271F-360D-4311-8874-CB6AF77B5C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722E2B08-3A97-4A49-946A-CB4B60071080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722E2B08-3A97-4A49-946A-CB4B60071080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722E2B08-3A97-4A49-946A-CB4B60071080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722E2B08-3A97-4A49-946A-CB4B60071080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5FD8ED1-EDA9-4C5F-8CAE-2AB8776FE273} = {FA6E6DF1-7B88-4061-A56B-03229DCB5D97}
+		{0B5F271F-360D-4311-8874-CB6AF77B5C73} = {B5FD8ED1-EDA9-4C5F-8CAE-2AB8776FE273}
+		{B19F78ED-8212-4134-BCCF-7F0093401AC0} = {FA6E6DF1-7B88-4061-A56B-03229DCB5D97}
+		{722E2B08-3A97-4A49-946A-CB4B60071080} = {B19F78ED-8212-4134-BCCF-7F0093401AC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {185F910D-BBFA-47C8-BD9F-D7EBC22D5BE8}
